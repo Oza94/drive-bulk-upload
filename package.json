@@ -1,11 +1,11 @@
 {
   "name": "drive-bulk-uploader",
-  "version": "0.1.0-dev",
+  "version": "0.1.1-dev",
   "scripts": {
     "develop": "node node_modules/babel-cli/bin/babel ./src --out-dir ./lib --watch --source-maps inline"
   },
   "bin": {
-    "drive-bulk-uploader": "index.js"
+    "drive-bulk-uploader": "./index.js"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
