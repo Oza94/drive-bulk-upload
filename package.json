@@ -1,0 +1,27 @@
+{
+  "name": "drive-bulk-uploader",
+  "version": "0.1.0-dev",
+  "scripts": {
+    "develop": "node node_modules/babel-cli/bin/babel ./src --out-dir ./lib --watch --source-maps inline"
+  },
+  "bin": {
+    "drive-bulk-uploader": "index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.2",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "fs-extra-promise": "^0.4.1",
+    "google-auth-library": "^0.9.10",
+    "googleapis": "^14.2.0",
+    "lodash": "^4.17.2",
+    "mime-types": "^2.1.13",
+    "minimist": "^1.2.0",
+    "opn": "^4.0.2",
+    "winston": "^2.3.0"
+  }
+}
